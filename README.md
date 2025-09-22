@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+CollabSpace- A Project Collaboration Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack collaboration tool designed for students, teams, and organizations to manage projects seamlessly.
+Built with the MERN stack, it combines real-time document collaboration, task tracking, and AI-powered assistance into one platform.
 
-## Available Scripts
+Features
 
-In the project directory, you can run:
+1. PDF Collaboration – Upload, view, highlight, and annotate PDFs as a group.
+2. Shared Notes – Team members can add and edit notes collaboratively.
+3. Real-Time Sync – Highlights, notes, and tasks update instantly using Socket.IO.
+4. Meeting Scheduler – Schedule meetings directly via Google Meet/Zoom APIs.
+5.  AI Chatbot – Get project plans, summarize documents, and answer queries.
 
-### `npm start`
+Tech Stack
+Frontend:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+React.js, CSS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+React Router (navigation)
 
-### `npm test`
+PDF.js (document rendering)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Socket.IO (real-time updates)
 
-### `npm run build`
+Backend:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Node.js, Express.js
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+JWT Authentication & Google OAuth
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Socket.IO (real-time events)
 
-### `npm run eject`
+REST APIs (for tasks, notes, meetings, documents)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Database & Storage:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+MongoDB + Mongoose (users, tasks, notes, highlights)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+MongoDB Atlas (cloud database)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+AI & Integrations:
 
-## Learn More
+OpenAI API / Hugging Face (chatbot & summarization)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Google Meet API / Zoom API (meeting scheduling)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Deployment:
 
-### Code Splitting
+Vercel
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Getting Started
+1. Clone the Repo
+git clone https://github.com/yourusername/project-collab.git
+cd project-collab
 
-### Analyzing the Bundle Size
+2. Setup Backend
+cd backend
+npm install
+npm run dev
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+3. Setup Frontend
+cd frontend
+npm install
+npm start
 
-### Making a Progressive Web App
+🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Pull requests are welcome! For major changes, please open an issue first to discuss your ideas.
