@@ -3,7 +3,7 @@ CollabSpace- A Project Collaboration Platform
 A full-stack collaboration tool designed for students, teams, and organizations to manage projects seamlessly.
 Built with the MERN stack, it combines real-time document collaboration, task tracking, and AI-powered assistance into one platform.
 
-Features
+Features:
 
 1. PDF Collaboration – Upload, view, highlight, and annotate PDFs as a group.
 2. Shared Notes – Team members can add and edit notes collaboratively.
@@ -12,6 +12,7 @@ Features
 5.  AI Chatbot – Get project plans, summarize documents, and answer queries.
 
 Tech Stack
+
 Frontend:
 
 React.js, CSS
