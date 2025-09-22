@@ -1,0 +1,59 @@
+/* components/Dashboard/Documents.css */
+.documents {
+    padding: 20px 0;
+  }
+  
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  
+  .section-header h2 {
+    color: #1f2937;
+    font-size: 24px;
+  }
+  
+  .documents-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .document-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .document-icon {
+    font-size: 48px;
+    margin-bottom: 16px;
+  }
+  
+  .document-card h3 {
+    margin-bottom: 12px;
+    color: #1f2937;
+  }
+  
+  .document-details {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+    color: #6b7280;
+    font-size: 14px;
+  }
+  
+  .document-actions {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+  }
+  
+  .document-actions .btn {
+    flex: 1;
+    padding: 8px 16px;
+  }

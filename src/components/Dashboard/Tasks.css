@@ -1,0 +1,61 @@
+/* components/Dashboard/Tasks.css */
+.tasks {
+    padding: 20px 0;
+  }
+  
+  .add-task-form {
+    margin-bottom: 24px;
+  }
+  
+  .add-task-form h3 {
+    margin-bottom: 16px;
+    color: #1f2937;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  
+  .form-row input, .form-row select {
+    padding: 8px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    flex: 1;
+    min-width: 120px;
+  }
+  
+  .tasks-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .tasks-column {
+    background-color: #f9fafb;
+    padding: 16px;
+    border-radius: 8px;
+  }
+  
+  .tasks-column h3 {
+    margin-bottom: 16px;
+    color: #1f2937;
+    text-align: center;
+  }
+  
+  .task-card {
+    margin-bottom: 12px;
+    padding: 12px;
+  }
+  
+  .task-card h4 {
+    margin-bottom: 8px;
+    color: #1f2937;
+  }
+  
+  .task-card p {
+    margin: 4px 0;
+    color: #6b7280;
+    font-size: 14px;
+  }

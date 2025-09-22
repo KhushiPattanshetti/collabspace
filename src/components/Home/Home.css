@@ -1,0 +1,6 @@
+/* components/Home/Home.css */
+.home {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
